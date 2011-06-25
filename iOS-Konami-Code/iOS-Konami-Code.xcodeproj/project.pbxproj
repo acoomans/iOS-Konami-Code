@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5151CF0913B59642009D1493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0813B59642009D1493 /* UIKit.framework */; };
+		5151CF0B13B59642009D1493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0A13B59642009D1493 /* Foundation.framework */; };
+		5151CF0D13B59642009D1493 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0C13B59642009D1493 /* CoreGraphics.framework */; };
+		5151CF1313B59642009D1493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5151CF1113B59642009D1493 /* InfoPlist.strings */; };
+		5151CF1513B59642009D1493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151CF1413B59642009D1493 /* main.m */; };
+		5151CF1913B59642009D1493 /* iOS_Konami_CodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151CF1813B59642009D1493 /* iOS_Konami_CodeAppDelegate.m */; };
+		5151CF1B13B59642009D1493 /* iOS_Konami_CodeViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 5151CF1A13B59642009D1493 /* iOS_Konami_CodeViewController.h */; };
+		5151CF1D13B59642009D1493 /* iOS_Konami_CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151CF1C13B59642009D1493 /* iOS_Konami_CodeViewController.m */; };
+		5151CF2013B59642009D1493 /* iOS_Konami_CodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5151CF1E13B59642009D1493 /* iOS_Konami_CodeViewController.xib */; };
+		5151CF2813B59642009D1493 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF2713B59642009D1493 /* SenTestingKit.framework */; };
+		5151CF2913B59642009D1493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0813B59642009D1493 /* UIKit.framework */; };
+		5151CF2A13B59642009D1493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0A13B59642009D1493 /* Foundation.framework */; };
+		5151CF2B13B59642009D1493 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5151CF0C13B59642009D1493 /* CoreGraphics.framework */; };
+		5151CF3313B59642009D1493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5151CF3113B59642009D1493 /* InfoPlist.strings */; };
+		5151CF3513B59642009D1493 /* iOS_Konami_CodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5151CF3413B59642009D1493 /* iOS_Konami_CodeTests.h */; };
+		5151CF3713B59642009D1493 /* iOS_Konami_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5151CF3613B59642009D1493 /* iOS_Konami_CodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5151CF2C13B59642009D1493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5151CEFB13B59642009D1493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5151CF0313B59642009D1493;
+			remoteInfo = "iOS-Konami-Code";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5151CF0413B59642009D1493 /* iOS-Konami-Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Konami-Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5151CF0813B59642009D1493 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5151CF0A13B59642009D1493 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5151CF0C13B59642009D1493 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5151CF1013B59642009D1493 /* iOS-Konami-Code-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Konami-Code-Info.plist"; sourceTree = "<group>"; };
+		5151CF1213B59642009D1493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5151CF1413B59642009D1493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5151CF1613B59642009D1493 /* iOS-Konami-Code-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Konami-Code-Prefix.pch"; sourceTree = "<group>"; };
+		5151CF1713B59642009D1493 /* iOS_Konami_CodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Konami_CodeAppDelegate.h; sourceTree = "<group>"; };
+		5151CF1813B59642009D1493 /* iOS_Konami_CodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Konami_CodeAppDelegate.m; sourceTree = "<group>"; };
+		5151CF1A13B59642009D1493 /* iOS_Konami_CodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Konami_CodeViewController.h; sourceTree = "<group>"; };
+		5151CF1C13B59642009D1493 /* iOS_Konami_CodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Konami_CodeViewController.m; sourceTree = "<group>"; };
+		5151CF1F13B59642009D1493 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOS_Konami_CodeViewController.xib; sourceTree = "<group>"; };
+		5151CF2613B59642009D1493 /* iOS-Konami-CodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Konami-CodeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5151CF2713B59642009D1493 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5151CF3013B59642009D1493 /* iOS-Konami-CodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Konami-CodeTests-Info.plist"; sourceTree = "<group>"; };
+		5151CF3213B59642009D1493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5151CF3413B59642009D1493 /* iOS_Konami_CodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Konami_CodeTests.h; sourceTree = "<group>"; };
+		5151CF3613B59642009D1493 /* iOS_Konami_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Konami_CodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5151CF0113B59642009D1493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF0913B59642009D1493 /* UIKit.framework in Frameworks */,
+				5151CF0B13B59642009D1493 /* Foundation.framework in Frameworks */,
+				5151CF0D13B59642009D1493 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151CF2213B59642009D1493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF2813B59642009D1493 /* SenTestingKit.framework in Frameworks */,
+				5151CF2913B59642009D1493 /* UIKit.framework in Frameworks */,
+				5151CF2A13B59642009D1493 /* Foundation.framework in Frameworks */,
+				5151CF2B13B59642009D1493 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5151CEF913B59642009D1493 = {
+			isa = PBXGroup;
+			children = (
+				5151CF0E13B59642009D1493 /* iOS-Konami-Code */,
+				5151CF2E13B59642009D1493 /* iOS-Konami-CodeTests */,
+				5151CF0713B59642009D1493 /* Frameworks */,
+				5151CF0513B59642009D1493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5151CF0513B59642009D1493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF0413B59642009D1493 /* iOS-Konami-Code.app */,
+				5151CF2613B59642009D1493 /* iOS-Konami-CodeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5151CF0713B59642009D1493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF0813B59642009D1493 /* UIKit.framework */,
+				5151CF0A13B59642009D1493 /* Foundation.framework */,
+				5151CF0C13B59642009D1493 /* CoreGraphics.framework */,
+				5151CF2713B59642009D1493 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5151CF0E13B59642009D1493 /* iOS-Konami-Code */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF1713B59642009D1493 /* iOS_Konami_CodeAppDelegate.h */,
+				5151CF1813B59642009D1493 /* iOS_Konami_CodeAppDelegate.m */,
+				5151CF1A13B59642009D1493 /* iOS_Konami_CodeViewController.h */,
+				5151CF1C13B59642009D1493 /* iOS_Konami_CodeViewController.m */,
+				5151CF1E13B59642009D1493 /* iOS_Konami_CodeViewController.xib */,
+				5151CF0F13B59642009D1493 /* Supporting Files */,
+			);
+			path = "iOS-Konami-Code";
+			sourceTree = "<group>";
+		};
+		5151CF0F13B59642009D1493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF1013B59642009D1493 /* iOS-Konami-Code-Info.plist */,
+				5151CF1113B59642009D1493 /* InfoPlist.strings */,
+				5151CF1413B59642009D1493 /* main.m */,
+				5151CF1613B59642009D1493 /* iOS-Konami-Code-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5151CF2E13B59642009D1493 /* iOS-Konami-CodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF3413B59642009D1493 /* iOS_Konami_CodeTests.h */,
+				5151CF3613B59642009D1493 /* iOS_Konami_CodeTests.m */,
+				5151CF2F13B59642009D1493 /* Supporting Files */,
+			);
+			path = "iOS-Konami-CodeTests";
+			sourceTree = "<group>";
+		};
+		5151CF2F13B59642009D1493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5151CF3013B59642009D1493 /* iOS-Konami-CodeTests-Info.plist */,
+				5151CF3113B59642009D1493 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5151CF0313B59642009D1493 /* iOS-Konami-Code */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5151CF3A13B59642009D1493 /* Build configuration list for PBXNativeTarget "iOS-Konami-Code" */;
+			buildPhases = (
+				5151CF0013B59642009D1493 /* Sources */,
+				5151CF0113B59642009D1493 /* Frameworks */,
+				5151CF0213B59642009D1493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-Konami-Code";
+			productName = "iOS-Konami-Code";
+			productReference = 5151CF0413B59642009D1493 /* iOS-Konami-Code.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5151CF2513B59642009D1493 /* iOS-Konami-CodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5151CF3D13B59642009D1493 /* Build configuration list for PBXNativeTarget "iOS-Konami-CodeTests" */;
+			buildPhases = (
+				5151CF2113B59642009D1493 /* Sources */,
+				5151CF2213B59642009D1493 /* Frameworks */,
+				5151CF2313B59642009D1493 /* Resources */,
+				5151CF2413B59642009D1493 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5151CF2D13B59642009D1493 /* PBXTargetDependency */,
+			);
+			name = "iOS-Konami-CodeTests";
+			productName = "iOS-Konami-CodeTests";
+			productReference = 5151CF2613B59642009D1493 /* iOS-Konami-CodeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5151CEFB13B59642009D1493 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5151CEFE13B59642009D1493 /* Build configuration list for PBXProject "iOS-Konami-Code" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5151CEF913B59642009D1493;
+			productRefGroup = 5151CF0513B59642009D1493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5151CF0313B59642009D1493 /* iOS-Konami-Code */,
+				5151CF2513B59642009D1493 /* iOS-Konami-CodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5151CF0213B59642009D1493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF1313B59642009D1493 /* InfoPlist.strings in Resources */,
+				5151CF1B13B59642009D1493 /* iOS_Konami_CodeViewController.h in Resources */,
+				5151CF2013B59642009D1493 /* iOS_Konami_CodeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151CF2313B59642009D1493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF3313B59642009D1493 /* InfoPlist.strings in Resources */,
+				5151CF3513B59642009D1493 /* iOS_Konami_CodeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5151CF2413B59642009D1493 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5151CF0013B59642009D1493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF1513B59642009D1493 /* main.m in Sources */,
+				5151CF1913B59642009D1493 /* iOS_Konami_CodeAppDelegate.m in Sources */,
+				5151CF1D13B59642009D1493 /* iOS_Konami_CodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5151CF2113B59642009D1493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5151CF3713B59642009D1493 /* iOS_Konami_CodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5151CF2D13B59642009D1493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5151CF0313B59642009D1493 /* iOS-Konami-Code */;
+			targetProxy = 5151CF2C13B59642009D1493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5151CF1113B59642009D1493 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5151CF1213B59642009D1493 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5151CF1E13B59642009D1493 /* iOS_Konami_CodeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5151CF1F13B59642009D1493 /* en */,
+			);
+			name = iOS_Konami_CodeViewController.xib;
+			sourceTree = "<group>";
+		};
+		5151CF3113B59642009D1493 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5151CF3213B59642009D1493 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5151CF3813B59642009D1493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5151CF3913B59642009D1493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5151CF3B13B59642009D1493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Konami-Code/iOS-Konami-Code-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Konami-Code/iOS-Konami-Code-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5151CF3C13B59642009D1493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Konami-Code/iOS-Konami-Code-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Konami-Code/iOS-Konami-Code-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5151CF3E13B59642009D1493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Konami-Code.app/iOS-Konami-Code";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Konami-Code/iOS-Konami-Code-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Konami-CodeTests/iOS-Konami-CodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5151CF3F13B59642009D1493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-Konami-Code.app/iOS-Konami-Code";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-Konami-Code/iOS-Konami-Code-Prefix.pch";
+				INFOPLIST_FILE = "iOS-Konami-CodeTests/iOS-Konami-CodeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5151CEFE13B59642009D1493 /* Build configuration list for PBXProject "iOS-Konami-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151CF3813B59642009D1493 /* Debug */,
+				5151CF3913B59642009D1493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5151CF3A13B59642009D1493 /* Build configuration list for PBXNativeTarget "iOS-Konami-Code" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151CF3B13B59642009D1493 /* Debug */,
+				5151CF3C13B59642009D1493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5151CF3D13B59642009D1493 /* Build configuration list for PBXNativeTarget "iOS-Konami-CodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5151CF3E13B59642009D1493 /* Debug */,
+				5151CF3F13B59642009D1493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5151CEFB13B59642009D1493 /* Project object */;
+}
