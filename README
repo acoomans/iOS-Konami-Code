@@ -1,0 +1,11 @@
+A konami code gesture recognizer.
+
+The Konami code is a famous cheat code present in many konami games (see more at http://en.wikipedia.org/wiki/Konami_Code).
+
+This a gesture recognizer for iOS that recognizes if the users swiped and tapped the konami code in a view. Directions are to be swiped, the B button is a single tap and the A button is a single or double tap (depending on a #define directive).
+
+I'm not sure your app will be accepted by Apple if you use this code as a cheat code (or won't be removed from store after they discover it), because Apple is known for disliking hidden features. (My two cents: Cheat codes in games shouldn't be disallowed by Apple as they are common since the invention of video games).
+
+Nevertheless feel free to read, modify, and learn from this code!
+
+The konami code png file comes credits goes to wikipedia.
