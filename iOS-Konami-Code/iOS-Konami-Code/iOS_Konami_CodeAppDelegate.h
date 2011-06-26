@@ -2,7 +2,7 @@
 //  iOS_Konami_CodeAppDelegate.h
 //  iOS-Konami-Code
 //
-//  Created by Arnaud Coomans on 24/06/11.
+//  Created by Arnaud Coomans on 26/06/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -10,10 +10,12 @@
 
 @class iOS_Konami_CodeViewController;
 
-@interface iOS_Konami_CodeAppDelegate : UIResponder <UIApplicationDelegate>
+@interface iOS_Konami_CodeAppDelegate : NSObject <UIApplicationDelegate> {
 
-@property (strong, nonatomic) UIWindow *window;
+}
 
-@property (strong, nonatomic) iOS_Konami_CodeViewController *viewController;
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+
+@property (nonatomic, retain) IBOutlet iOS_Konami_CodeViewController *viewController;
 
 @end

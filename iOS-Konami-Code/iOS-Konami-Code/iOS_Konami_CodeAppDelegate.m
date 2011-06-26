@@ -2,7 +2,7 @@
 //  iOS_Konami_CodeAppDelegate.m
 //  iOS-Konami-Code
 //
-//  Created by Arnaud Coomans on 24/06/11.
+//  Created by Arnaud Coomans on 26/06/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -12,16 +12,17 @@
 
 @implementation iOS_Konami_CodeAppDelegate
 
-@synthesize window = _window;
-@synthesize viewController = _viewController;
+
+@synthesize window=_window;
+
+@synthesize viewController=_viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	self.viewController = [[iOS_Konami_CodeViewController alloc] initWithNibName:@"iOS_Konami_CodeViewController" bundle:nil]; 
+	// Override point for customization after application launch.
+	 
 	self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+	[self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -62,6 +63,13 @@
 	 Save data if appropriate.
 	 See also applicationDidEnterBackground:.
 	 */
+}
+
+- (void)dealloc
+{
+	[_window release];
+	[_viewController release];
+    [super dealloc];
 }
 
 @end

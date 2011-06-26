@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iOS-Konami-CodeTests' target in the 'iOS-Konami-CodeTests' project
+//
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+#endif
