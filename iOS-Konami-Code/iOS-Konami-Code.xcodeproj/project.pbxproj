@@ -22,6 +22,8 @@
 		518B8DE713B728C8002C990E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518B8DE513B728C8002C990E /* InfoPlist.strings */; };
 		518B8DEA13B728C8002C990E /* iOS_Konami_CodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 518B8DE913B728C8002C990E /* iOS_Konami_CodeTests.h */; };
 		518B8DEC13B728C8002C990E /* iOS_Konami_CodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 518B8DEB13B728C8002C990E /* iOS_Konami_CodeTests.m */; };
+		518B8E0013B72952002C990E /* UIKonamiGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 518B8DFF13B72952002C990E /* UIKonamiGestureRecognizer.m */; };
+		518B8E0413B72A75002C990E /* Konami_Code.png in Resources */ = {isa = PBXBuildFile; fileRef = 518B8E0313B72A75002C990E /* Konami_Code.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		518B8DE813B728C8002C990E /* iOS-Konami-CodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-Konami-CodeTests-Prefix.pch"; sourceTree = "<group>"; };
 		518B8DE913B728C8002C990E /* iOS_Konami_CodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Konami_CodeTests.h; sourceTree = "<group>"; };
 		518B8DEB13B728C8002C990E /* iOS_Konami_CodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Konami_CodeTests.m; sourceTree = "<group>"; };
+		518B8DFE13B72952002C990E /* UIKonamiGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKonamiGestureRecognizer.h; sourceTree = "<group>"; };
+		518B8DFF13B72952002C990E /* UIKonamiGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKonamiGestureRecognizer.m; sourceTree = "<group>"; };
+		518B8E0313B72A75002C990E /* Konami_Code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Konami_Code.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +89,7 @@
 		518B8DAD13B728C7002C990E = {
 			isa = PBXGroup;
 			children = (
+				518B8DFD13B72940002C990E /* Konami */,
 				518B8DC213B728C8002C990E /* iOS-Konami-Code */,
 				518B8DE213B728C8002C990E /* iOS-Konami-CodeTests */,
 				518B8DBB13B728C8002C990E /* Frameworks */,
@@ -148,11 +154,21 @@
 		518B8DE313B728C8002C990E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				518B8E0313B72A75002C990E /* Konami_Code.png */,
 				518B8DE413B728C8002C990E /* iOS-Konami-CodeTests-Info.plist */,
 				518B8DE513B728C8002C990E /* InfoPlist.strings */,
 				518B8DE813B728C8002C990E /* iOS-Konami-CodeTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		518B8DFD13B72940002C990E /* Konami */ = {
+			isa = PBXGroup;
+			children = (
+				518B8DFE13B72952002C990E /* UIKonamiGestureRecognizer.h */,
+				518B8DFF13B72952002C990E /* UIKonamiGestureRecognizer.m */,
+			);
+			name = Konami;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +241,7 @@
 				518B8DC713B728C8002C990E /* InfoPlist.strings in Resources */,
 				518B8DD013B728C8002C990E /* MainWindow.xib in Resources */,
 				518B8DD613B728C8002C990E /* iOS_Konami_CodeViewController.xib in Resources */,
+				518B8E0413B72A75002C990E /* Konami_Code.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +280,7 @@
 				518B8DCA13B728C8002C990E /* main.m in Sources */,
 				518B8DCD13B728C8002C990E /* iOS_Konami_CodeAppDelegate.m in Sources */,
 				518B8DD313B728C8002C990E /* iOS_Konami_CodeViewController.m in Sources */,
+				518B8E0013B72952002C990E /* UIKonamiGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
