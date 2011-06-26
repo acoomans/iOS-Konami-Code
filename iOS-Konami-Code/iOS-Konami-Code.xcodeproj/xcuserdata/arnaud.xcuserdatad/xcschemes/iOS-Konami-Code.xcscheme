@@ -13,7 +13,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5151CF0313B59642009D1493"
+               BlueprintIdentifier = "518B8DB713B728C7002C990E"
                BuildableName = "iOS-Konami-Code.app"
                BlueprintName = "iOS-Konami-Code"
                ReferencedContainer = "container:iOS-Konami-Code.xcodeproj">
@@ -31,7 +31,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5151CF2513B59642009D1493"
+               BlueprintIdentifier = "518B8DDB13B728C8002C990E"
                BuildableName = "iOS-Konami-CodeTests.octest"
                BlueprintName = "iOS-Konami-CodeTests"
                ReferencedContainer = "container:iOS-Konami-Code.xcodeproj">
@@ -42,14 +42,15 @@
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      displayScaleIsEnabled = "NO"
+      displayScale = "1.00"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
-      enablesOpenGLESFrameCapture = "YES">
+      buildConfiguration = "Debug">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5151CF0313B59642009D1493"
+            BlueprintIdentifier = "518B8DB713B728C7002C990E"
             BuildableName = "iOS-Konami-Code.app"
             BlueprintName = "iOS-Konami-Code"
             ReferencedContainer = "container:iOS-Konami-Code.xcodeproj">
@@ -59,6 +60,8 @@
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      displayScaleIsEnabled = "NO"
+      displayScale = "1.00"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -66,7 +69,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5151CF0313B59642009D1493"
+            BlueprintIdentifier = "518B8DB713B728C7002C990E"
             BuildableName = "iOS-Konami-Code.app"
             BlueprintName = "iOS-Konami-Code"
             ReferencedContainer = "container:iOS-Konami-Code.xcodeproj">
